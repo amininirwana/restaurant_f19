@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
 
-* {
-    box-sizing: border-box;
-}
 
 html, body, 
 ul, ol, li,
@@ -16,7 +13,7 @@ body {
 }
 
 header {
-    height: 65px;
+    height: 75px;
     position: fixed;
     background-color: rgb(182, 243, 190, 0.7);
     width: 100%;
@@ -25,19 +22,22 @@ header {
 }
 
 .header-logo {
-    float: left;
-    
+    float: left;  
 }
 
 .header-logo img {
-    width: 50px;
+    width: 60px;
     padding: 10px;
-
 }
-
+.menu-head{
+    width : 100%;
+    padding:6px;
+    float:right;
+}
 .header-list {
+    width:1000px;
     background-color: rgba(255,255,255,0.3);
-    
+    display:inline-block;
 }
 
 
@@ -62,7 +62,7 @@ a {
 .top-container {
     background-image: url("assets/img/pexels-anna-tis-6341164.jpg");
     padding-top: 180px;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
     text-align: center;
     color: white;
     background-size: cover;
@@ -100,21 +100,17 @@ a {
     color: white;
     opacity: 0.9;
     padding: 10px 20px;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 .btn:hover {
     opacity: 1;
     transition: 0.5ss;
 }
+.btn-pesan {
+    background-color: lightblue;
+    width: 200px;
 
-.signup {
-    background-color: #239b76;
-}
-
-.fb {
-    background-color: #3b5998;
 }
 
 .body-container {
@@ -143,14 +139,8 @@ a {
     width: 300px;
     padding: 20px 50px;
 }
-
-@media screen and (max-width: 600px) {
-    header .container,
-    .top-container,
-    .body-container .container {
-        width: 100%;
-        padding: 0;
-    }
- }
-
-
+.footer {
+    color: blue;
+    font-size : 25px;
+    background-color:grey;
+}
